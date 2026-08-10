@@ -1,0 +1,32 @@
+.dashboardContainer {
+  display: grid;
+  min-height: 100vh;
+  margin-top: 2.5px;
+  grid-template-columns: 220px 1fr 300px;
+  grid-template-rows: 72px 1fr;
+
+  grid-template-areas:
+    "sidebar topbar topbar"
+    "sidebar main rightbar";
+
+}
+
+.sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid #dadada30;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.025);
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 25px 22px;
+  grid-area: topbar;
+}
+.main {
+  grid-area: main;
+  min-width: 0;
+}
+.rightbar {
+  background-color: rgb(233, 233, 233);
+  grid-area: rightbar;
+}
