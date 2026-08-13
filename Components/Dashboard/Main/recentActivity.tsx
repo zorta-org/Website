@@ -65,75 +65,64 @@ export default function RecentActivity() {
 
   const recentActivities = activities.slice(0, 4);
   return (
-   <div className="rounded-xl border border-[#dadada57] px-5 py-5 flex-1 min-w-0">
-  {/* Header */}
-  <div className="flex items-center justify-between mb-6">
-    <h1 className="font-semibold text-[14px]">
-      Recent Activity
-    </h1>
+    <div className="rounded-xl border border-[#dadada57] px-5 py-5 flex-1 min-w-0">
+      {/* Header */}
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="font-semibold text-[14px]">Recent Activity</h1>
 
-    <Link
-      href="/activity"
-      className="text-[11px] text-[#5e3df5] hover:underline"
-    >
-      View all
-    </Link>
-  </div>
-
-  {/* Activities */}
-  <div className="flex flex-col gap-5">
-    {recentActivities.map((activity) => {
-      return (
-        <div
-          key={activity.id}
-          className="flex items-start justify-between"
+        <Link
+          href="/activity"
+          className="text-[11px]  text-[#39738b] hover:underline"
         >
-          {/* Left side */}
-          <div className="flex items-start gap-3 min-w-0">
-            {/* Activity icon */}
-            <div className="w-6 h-6 shrink-0 rounded-full bg-[#f1f1f1] flex items-center justify-center">
-              <Icon
-                icon={activity.icon}
-                width={12}
-                height={12}
-              />
-            </div>
+          View all
+        </Link>
+      </div>
 
-            {/* User + activity */}
-            <div className="min-w-0">
-              <p className="text-[11px] text-[#363636]">
-                <span className="font-semibold">
-                  {activity.user}
-                </span>{" "}
-                {activity.action}
-              </p>
+      {/* Activities */}
+      <div className="flex flex-col gap-5">
+        {recentActivities.map((activity) => {
+          return (
+            <div key={activity.id} className="flex items-start justify-between">
+              {/* Left side */}
+              <div className="flex items-start gap-3 min-w-0">
+                {/* Activity icon */}
+                <div className="w-6 h-6 shrink-0 rounded-full bg-[#f1f1f1] flex items-center justify-center">
+                  <Icon icon={activity.icon} width={12} height={12} />
+                </div>
 
-              {/* Rating */}
-              {activity.type === "review" && activity.rating && (
-                <div className="flex gap-0.5 mt-1">
-                  {Array.from({ length: activity.rating }).map(
-                    (_, index) => (
-                      <Icon
-                        key={index}
-                        icon="material-symbols:star"
-                        className="text-yellow-400"
-                        width={13}
-                      />
-                    )
+                {/* User + activity */}
+                <div className="min-w-0">
+                  <p className="text-[11px] text-[#363636]">
+                    <span className="font-semibold">{activity.user}</span>{" "}
+                    {activity.action}
+                  </p>
+
+                  {/* Rating */}
+                  {activity.type === "review" && activity.rating && (
+                    <div className="flex gap-0.5 mt-1">
+                      {Array.from({ length: activity.rating }).map(
+                        (_, index) => (
+                          <Icon
+                            key={index}
+                            icon="material-symbols:star"
+                            className="text-yellow-400"
+                            width={13}
+                          />
+                        ),
+                      )}
+                    </div>
                   )}
                 </div>
-              )}
-            </div>
-          </div>
+              </div>
 
-          {/* Time */}
-          <p className="text-[10px] text-[#868585] shrink-0 ml-3">
-            {activity.time}
-          </p>
-        </div>
-      );
-    })}
-  </div>
-</div>
+              {/* Time */}
+              <p className="text-[10px] text-[#868585] shrink-0 ml-3">
+                {activity.time}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }
