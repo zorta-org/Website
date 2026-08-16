@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="155c8f7d-3364-48d5-aa7a-052103dc2345" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Community.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Main/postCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Main/postComposer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Main/suggestedPeople.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/Main/trendingTopics.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Community/community.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/Developers.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/Main/developerCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/Main/developersGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/Main/developersHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Developers/developers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/categoryFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/featuredBanner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/marketplaceHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/productCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Main/productsGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/Marketplace.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Marketplace/marketplace.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Main/billingToggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Main/perksGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Main/planCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Main/premiumHero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/Premium.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Premium/premium.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Main/newProjectCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Main/projectCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Main/projectsGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Main/projectsHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/Projects.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Projects/projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/Main/categoryTiles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/Main/resourceRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/Main/resourcesList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/Resources.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Resources/resources.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Main/rewardCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Main/rewardsGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Main/rewardsHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Main/tierProgress.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/Rewards.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Rewards/rewards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Main/taskCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Main/tasksBoard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Main/tasksHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Main/tasksList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/Tasks.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Tasks/tasks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/community/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/developers/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/marketplace/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/premium/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/resources/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/rewards/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/communitySlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/developersSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/marketplaceSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/premiumSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/projectsSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/resourcesSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/rewardsSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/slices/tasksSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zorta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/store/store.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tidumm&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zorta-org/Website.git&quot;,
+    &quot;accountId&quot;: &quot;d593db18-45fa-48c4-9e11-586f565ce8eb&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I03vLhXuw0wj30KZDoXvCYuEso" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/20.15.0/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.341" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155c8f7d-3364-48d5-aa7a-052103dc2345" name="Changes" comment="" />
+      <created>1786887887935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786887887935</updated>
+      <workItem from="1786887889010" duration="846000" />
+      <workItem from="1786889005893" duration="680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
